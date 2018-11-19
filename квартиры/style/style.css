@@ -1,0 +1,42 @@
+body{
+
+	margin: 0;
+}
+img{
+	height: 100%;
+	/*border: solid 5px black;*/
+}
+.pod{
+	margin-left: 100px;
+	height: 300px;
+	width: 250px;
+	border: solid 5px black;
+	background: red;
+	visibility: hidden;
+}
+h2{
+	font-weight: bolder;
+	font-size: 800;
+	background-color:silver; 
+	position: relative;
+	top:-140px;
+	left: 65px;
+	width: 50%;
+}
+
+#top{
+	display: flex;
+}
+#bot{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

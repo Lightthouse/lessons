@@ -1,0 +1,26 @@
+body{
+	margin: 0px 0px;
+}
+#imgBl{
+	height: 300px;
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+img{
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	/*border:solid black 5px;*/
+	height: 100%;
+}
+.border{
+	box-shadow: 50px 0 90px red;
+	border:solid black 5px;
+}
+#ofX{
+	display: inline;
+}
+#ofY{
+	display: inline;
+}

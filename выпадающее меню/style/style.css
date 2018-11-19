@@ -1,0 +1,14 @@
+#main{
+/*	border: black 2px solid;
+	cursor: pointer;*/
+}
+.main-menu{
+	border: black 2px solid;
+	cursor: pointer;
+	display: inline-block;
+}
+.sub-menu{
+	background: orange;
+	position: absolute;
+	opacity: 0;
+}

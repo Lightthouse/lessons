@@ -1,0 +1,46 @@
+body{
+	width: 100vw;
+  	height: 100vh;
+	/*background: linear-gradient(#e66465, #9198e5);*/
+	background: linear-gradient(45deg, red, blue);
+	background-repeat: no-repeat;
+
+}
+div{
+	padding: 15px;
+	margin-left: 40%;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 450px;
+	background: linear-gradient(#e66465, #9198e5);
+	border: 10px solid black;
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);  
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);  
+    border-image: linear-gradient(to bottombottom, #3acfd5 0%, #3a4ed5 100%);  
+    border-image-slice: 1; 
+}
+textarea{
+	resize: none;
+	margin-top: 30px;
+	height: 100px;
+}
+button{
+	margin-top: 30px;
+	height: 40px;
+	width: 100px;
+	align-self: center;
+
+}
+input{
+	margin-top: 20px;
+}
+
+input:after{
+	margin-left: 15px;
+}
+#m1:after{content: "Булка";}
+#m2:after{content: "Котлета";}
+#m3:after{content: "Сыр";}
+#m4:after{content: "Помидор";}
+#m5:after{content: "Огурец";}

@@ -1,0 +1,21 @@
+body{
+	margin:0;
+
+}
+div{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 40%;
+	height: 400px;
+	width:300px;
+	padding: 15px;
+	border:solid 2px silver ;
+}
+textarea{
+	resize: none;
+	height: 150px;
+}
+h1{
+	text-align: center;
+}

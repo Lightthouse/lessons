@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	/*background: url(../images/pr.jpg);*/
+
+}
+#menu{
+	display: flex;
+	margin-left: 40%;
+	border: solid 3px black;
+	height: 350px;
+	width:400px; 
+	padding: 15px;
+
+}
+#left{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+#right{
+	width: 200px;
+	height: 300px;
+	background: url(../images/pr.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	/*background-color: red; */
+	/*background-image: url(.../images/pr.jpg);*/
+}
+#calc{
+	
+	height: 40px;
+	width: 120px;
+}
+#period{
+	height: 20px;
+	width: 120px;
+}
+textarea{
+
+	margin-bottom: 15px;
+	resize: none;
+	width: 160px;
+	height: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */

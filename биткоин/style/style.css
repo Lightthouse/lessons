@@ -1,0 +1,28 @@
+body{
+	/*background: url(../images/desk.jpg) ;*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+div{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40%;
+	border: solid 5px silver;
+	height: 400px;
+	width: 400px;
+	padding: 15px;
+	background-color:silver;
+	opacity: 0.5;
+
+}
+h1{
+	text-align: center;
+}
+textarea{
+	height: 250px;
+	resize: none;
+}
+div:hover{
+	opacity: 1;
+}

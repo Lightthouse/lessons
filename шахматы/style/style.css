@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	/*background: url(../images/pr.jpg);*/
+
+}
+#desk{
+
+/*	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;*/
+	margin-left: 30%;
+	height: 560px;
+	width: 560px;
+	border: solid 2px black;
+}
+.gecks{
+	width: 70px;
+	height: 70px;
+}
+/*.gecks:nth-child(even){
+	background: silver;
+}
+.gecks:nth-child(odd){
+	background: black;
+}
+*/
+/*.black{
+	width: 70px;
+	height: 70px;
+	background: black;
+}
+.white{
+	width: 70px;
+	height: 70px;
+	background: black;
+}*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
