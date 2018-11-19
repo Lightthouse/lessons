@@ -1,12 +1,20 @@
 $(document).ready(function(){
-	var pr=0;
-	var time;
-	$(`#start`).click(()=>{
-		time=$(`#num`).val();
-		let id=setInterval( ()=>{
-				$(`#prBar`).val(pr+=1);
-				if( $(`#prBar`).val()>=100 )clearInterval(id);
-			},time/100*1000);
+	let perc=1;
+
+	$("#fire").click(function(){
+		let time=$("#dateIN").val();
+		let oneTick=time*1000/100;
+		let id=setInterval( plusSize,Number(oneTick) );
+	});
+
+	function plusSize(){
+		if(perc>=100){
+			$("#myBar").css("width",`100%`);
+			clearInterval(id);
 		}
-	)	
+		else{
+			perc++;
+			$("#myBar").html(`${perc}%`);
+			$("#myBar").css("width",`${perc}%`);}
+		};
 });

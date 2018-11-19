@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+}
+div{
+	margin-left: 40%; 
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 400px;
+	height: 500px;
+	border: solid 5px black;
+}
+input{
+	margin: 20px;
+
+}
+input:after{
+	margin-left:20px;
+	font-size: large; 
+}
+#calc{
+	margin-top: 20px;
+	margin-left: 35%;
+	width: 100px;
+	height: 40px;
+
+}
+#total{
+	width: 395px;
+	height: 100px;
+	resize: none;
+	margin-top: 20px;
+}
+#f1:after{
+	content: "булка";
+}
+#f2:after{
+	content: "котлета";
+}
+#f3:after{
+	content: "помидор";
+}
+#f4:after{
+	content: "сыр";
+}
+#f5:after{
+	content: "лук";
+}
+#f6:after{
+	content: "огурец";
+}
