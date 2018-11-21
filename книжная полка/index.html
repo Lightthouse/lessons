@@ -2,18 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title> Bock storage</title>
+	<title> Book storage</title>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<div class="modal" id="modal">
-	  <!-- не скролиться -->
-	  <button class="class-button" id="close-button">Закрыть</button>
-	  <div class="modal-guts">
-	  <!--- скролиться -->
-	  </div>
+	<div id="modal">
+			<div id="top">
+				<div id="left">
+					<div class="names">название</div>
+					<div class="names">автор</div>
+					<div class="names">дата</div>
+					<div class="names">изображение</div>
+				</div>
+				<div id="right">
+					<input type="text">
+					<input type="text">
+					<input type="text">
+					<input type="text">
+				</div>
+			</div>
+			<div id="bot">
+				<button id="butt">добавить</button>
+			</div>
 	</div>
-	<div class="modal-overlay" id="modal-overlay"></div>
+	<div id="bookshelf"></div>	
 <script src="script/script.js"></script>
 </body>
 </html>
