@@ -1,14 +1,45 @@
-var modal = document.querySelector("#modal"),
-    modalOverlay = document.querySelector("#modal-overlay"),
-    closeButton = document.querySelector("#close-button"),
-    openButton = document.querySelector("#open-button");
- 
-closeButton.addEventListner("click", function(){
-   modal.classList.toggle("closed");
-   modalOverlay.classList.toggle("closed");
-});
- 
-openButton.addEventListner("click", function(){
-   modal.classList.toggle("closed");
-   modalOverlay.classList.toggle("closed");
-});
+let butt=document.getElementById(`butt`);
+let shelf=document.getElementById(`bookshelf`);
+
+let name=document.querySelectorAll(`#right input`)[0];
+let author=document.querySelectorAll(`#right input`)[1];
+let date=document.querySelectorAll(`#right input`)[2];
+let img=document.querySelectorAll(`#right input`)[3];
+
+
+name.value=`Секреты космоса`;
+author.value=`Робинс`;
+date.value=( new Date() ).toDateString();
+img.value='url("file:///C:/Step/JS/resume/lessons/книжная%20полка/images/img.jpg")'
+
+butt.onclick=()=>{
+	let mom=document.createElement(`div`);
+	let son1=document.createElement(`div`);
+	let son2=document.createElement(`div`);
+	let son3=document.createElement(`div`);
+	let son4=document.createElement(`div`);
+	let del=document.createElement(`button`);
+
+	mom.classList.add(`book`);
+	son1.classList.add(`bookImg`);
+	son2.classList.add(`bookName`);
+	son3.classList.add(`bookDate`);
+	son4.classList.add(`bookAuth`);
+
+	del.textContent="удалить";
+	son1.style.backgroundImage=img.value;
+	son2.textContent=name.value;
+	son3.textContent=date.value;
+	son4.textContent=author.value;
+
+	mom.appendChild(son1);
+	mom.appendChild(son2);
+	mom.appendChild(son3);
+	mom.appendChild(son4);
+	mom.appendChild(del);
+
+	shelf.appendChild(mom);
+
+	
+}
+	
