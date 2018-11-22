@@ -10,7 +10,7 @@ let img=document.querySelectorAll(`#right input`)[3];
 name.value=`Секреты космоса`;
 author.value=`Робинс`;
 date.value=( new Date() ).toDateString();
-img.value='url("file:///C:/Step/JS/resume/lessons/книжная%20полка/images/img.jpg")'
+img.value='url("file:///E:/Step/JS/IMG/lessons/%D0%BA%D0%BD%D0%B8%D0%B6%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%BB%D0%BA%D0%B0/images/img.jpg")'
 
 butt.onclick=()=>{
 	let mom=document.createElement(`div`);
