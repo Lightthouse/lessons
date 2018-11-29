@@ -1,0 +1,15 @@
+svg{
+	animation: move 5s infinite;
+}
+circle{
+	fill:silver;
+}
+
+@keyframes move{
+	0%{
+		background-color: blue;
+	}
+	100%{
+		background-color: coral;
+	}
+} 
