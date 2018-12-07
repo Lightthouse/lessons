@@ -1,0 +1,169 @@
+@font-face{
+	font-family: Acrom-bold;
+	src: url(../fonts/acrom800.otf);
+}
+
+@font-face{
+	font-family: Acrom;
+	src: url(../fonts/acrom400.otf);
+}
+
+
+body{
+	margin: 0;
+	font-family: Acrom;
+}
+
+/*Первый блок====================================================================*/
+
+header{
+	background-image: url(../images/header_bg.png);
+	max-width:1200px; 
+	height: 752px;
+	max-height: 752px;
+
+
+}
+
+.top-line{
+	display: flex;
+	justify-content: space-around;
+	height: 84px;
+	background-color: rgba(5,5,7,0.5);
+	padding: 40px 0 40px 0  ;
+}
+.top-right{
+	display: flex;
+	align-self: flex-start
+}
+
+.logo{
+	background-image: url(../images/logo.png);
+	height: 47px;
+	width: 155px;
+	align-self: center;
+}
+.numbers{
+	
+	font-size: 23px;
+	color: white;
+}
+.butt{
+	
+	background: none;
+	color:white;
+	font-size: 9px;
+	width: 154px;	
+	height: 36px;	
+	border-radius: 15px;
+	border: solid 1px #0684b5;
+}
+
+.order{
+	align-self: center;
+}
+
+/*центр первого блока====================================================*/
+.center-column{
+	display: flex;
+	justify-content: center;
+	width:1200px; 
+}
+.center-block{
+	display: flex;
+	flex-direction: column;
+	height: 367px;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+
+.main-text{
+	font-family: Acrom-bold;
+	text-transform: uppercase;
+	color: white;
+	font-size: 37px;
+	text-align: center;
+}
+.under-main-text{
+	color: #0684b5;
+	font-size: 20px;
+	text-align: center;
+}
+.reg{
+	border-radius:  20px;
+	background-color: #ee6e22;
+	height: 45px;	
+	width: 203px;
+	color: white;
+	border: none;
+	font-size: 12px;
+}
+
+/*второй блок================================================*/
+
+.mid-line{
+	background-color: #ee6e22;
+	height: 95px;
+	width: 1200px;
+}
+
+.white-block{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	height: 588px;
+	width: 1200px;
+}
+.man{
+	background-image: url(../images/man.png);
+	width: 300px;
+	height: 430px;
+	background-size : flex-end;
+	background-repeat: no-repeat;
+}
+.list{
+	width: 450px;
+	height: 430px;
+	font-size: 42px;
+	font-family: Acrom-bold;
+}
+.list li{
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.list span{
+	color: #00aaeb;
+}
+
+/*3 блок ======================================================*/
+
+.third-block{
+	height: 756px;
+	width: 1200px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #131b28;
+}
+
+.woman{
+	width: 253px;
+	height: 255px;
+	background-image: url(../images/woman.png);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+}
+.head-text{
+	font-family: Acrom-bold;
+	color: #00a9ea;
+	font-size: 35px;
+}
+.just-text{
+	height: 336px;
+	width: 502px;
+	color: #fff;
+	font-size: 19px;
+}

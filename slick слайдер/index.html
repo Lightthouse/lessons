@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>слайдер</title>
+	<link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+	<link rel="stylesheet" href="style/style.css">slick-theme.css
+</head>
+<body>
+	
+	<section class="regular slider">
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2018/11/Devushka-shatenka-model-selfi-Girl-brown-haired-model-selfie-5184--3456-700x466.jpg">
+	  </div>
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2018/11/Kofe-s-penkoy-kniga-botanika-Coffee-with-foam-book-nerd-5259--3506-700x466.jpg">
+	  </div>
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2018/11/Sbor-risa-kitay-mestnoe-zemledelie-polya-risa-Rice-harvesting-China-local-agriculture-rice-fields-6360h4245-700x466.jpg">
+	  </div>
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2017/10/goticheskiy-zal-Gothic-Hall-7000x4600-700x465.jpeg">
+	  </div>
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2018/05/Volna-okean-poberezhe-Wave-ocean-coast-5000x3105-700x434.jpg">
+	  </div>
+	  <div>
+	    <img src="https://www.firestock.ru/wp-content/uploads/2018/07/Vinogradnik-sad-loza-vinograd-Vineyard-garden-vine-grapes-5760--3840-700x466.jpg">
+	  </div>
+	</section>
+	
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" ></script>
+	<script src="slick-1.8.1/slick/slick.js" ></script>
+	
+	<script> 
+		 $(document).on('ready', function() {
+		 	$(".regular").slick({
+		 	  dots: true,
+		 	  infinite: true,
+		 	  slidesToShow: 2,
+		 	  slidesToScroll: 2
+		 	});
+		 })
+	</script>
+</body>
+</html>

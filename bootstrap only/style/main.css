@@ -1,0 +1,128 @@
+body{
+	background-color: #6FADD1;
+}
+
+
+/*шапка-============================================================================*/
+.menu-top{
+	background-color: #242A37;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.menu-top a:link{
+	color: #fff;
+}
+.socials{
+	font-size: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.menu-reg a{
+	border-bottom: solid 1px white;
+	transition: all 0.3s;
+}
+
+.menu-reg a:hover{
+	border-bottom: none;
+	cursor: pointer;
+}
+
+.socials a{
+	color: white;
+}
+
+/*Логотип======================================================================*/
+.logo{
+	background-color: #6FADD1;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	font-family: Nau;
+	padding: 25px 0;
+}
+
+
+/*Меню============================================================*/
+
+.try{
+	background-color: #007599;
+	color: #fff;
+	/*padding: 15px 0;*/
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: RobotoBold;
+	transition: all .3s;
+}
+.try a{
+	color: #fff;
+}
+
+.try a:link{
+	color: #fff;
+}
+.try li:hover{
+	font-size: 22px;
+}
+
+.phone{
+	/*background-color: #154762;*/
+	font-size: 30px;
+	text-align: right;
+
+}
+
+
+
+
+/*Большая надпись=====================================================*/
+.bigText{
+	font-family: RobotoBold;
+	text-align: center;
+	color: #fff;
+	font-size: 32px;
+	padding: 20px ;
+
+}
+
+/*Кнопка связи==============================================================*/
+.delivery{
+	background-color: #D9DEE6;
+	padding: 25px;
+	font-family: RobotoBold;
+}
+.delivery-text{
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #000;
+	padding: 15px;	
+}
+.button{
+	font-family: RobotoRegular;
+	border-radius: 10px;
+	background-color: #59B989;
+	text-transform: uppercase;
+	color: #fff;	
+	cursor: pointer;
+}
+
+/*новости===========================================================*/
+
+.news{
+	background-color: #fff;
+	font-family: RobotoBold;
+}
+.side-bar{
+
+	margin-top: 2rem;
+	padding: 20px;
+	background-color: #D9DEE6;
+}
+.side-bar li{
+	margin-bottom: 5px;
+}

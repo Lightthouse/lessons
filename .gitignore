@@ -26,4 +26,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+w3org/*
+
 # End of https://www.gitignore.io/api/windows
